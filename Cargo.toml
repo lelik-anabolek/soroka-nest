@@ -1,0 +1,9 @@
+[package]
+name = "soroka-nest"
+version = "0.0.1"
+edition = "2024"
+keywords = ['mesh', 'hive', 'self-organazing', 'network']
+authors = ['https://github.com/lelik-anabolek']
+
+[dependencies]
+
