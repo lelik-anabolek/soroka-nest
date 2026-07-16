@@ -1,0 +1,10 @@
+[package]
+name = "soroka_sim"
+version = "0.1.0"
+edition = "2024"
+keywords = ['simulator', 'log']
+
+[dependencies]
+soroka_core = { path = "../soroka-core" }
+log="0.4.33"
+# egui = { version = "0.35.0" }

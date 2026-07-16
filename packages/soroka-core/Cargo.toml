@@ -1,0 +1,16 @@
+[package]
+name = "soroka_core"
+version = "0.1.0"
+edition = "2024"
+keywords = ['mesh', 'hive', 'self-organizing', 'network', 'no-std']
+authors = ['https://github.com/lelik-anabolek']
+
+[dependencies]
+heapless = { version = "0.9.3" }
+serde = { version = "1.0.228", default-features = false, features = [
+    "derive",
+], optional = true }
+postcard = { version = "1.1.3", default-features = false, optional = true }
+
+[features]
+wire = ["dep:serde", "dep:postcard", "heapless/serde"]
